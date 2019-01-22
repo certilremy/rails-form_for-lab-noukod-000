@@ -102,3 +102,10 @@ rubocop \
   --auto-correct
 
 . (called from block (2 levels) in <top (required)> at /home/loyal-demo-0423/rails-form_for-lab-noukod-000/spec/factories/students.rb:4)
+
+
+Started GET "/" for 190.115.179.49 at 2019-01-22 18:09:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 18ms (Views: 8.8ms | ActiveRecord: 0.0ms)
